@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>john king</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="js/site.js"></script> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <style>
+
+   /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: auto;
+  }
+  
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+</style>
+  </head>
+
+  <body>
+
+    <header>
+	    <div class="container">
+	    <div class="logo">
+               
+              <a href="#"><img  class="img-fluid logo" src="images/logo-13.png" alt=""></a>
+         </div> <nav class="top-menu">
+	     
+			     
+                <a href="#"><img src="img/pencil.png" />Connexion</a>          
+			    <a href="#"><img  class="find" src="images/header-loupe.png" /></a>
+				  <a href="#"><img src="img/pan.png" />Mon panier</a>
+            </nav>
+	 
+	 
+        <div class="navigation1">
+            
+        </div>
+      </div><nav id="menu">
+   
+	    <div class="container">
+		   
+		       <button id="icon-menu"> 
+			         <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+          <ul class="meny">
+             <li><a class="" href="index.html">Accueil</a></li>
+             <li><a class="active" href="produits.html">Chaussures</a></li>
+			 <li><a href="actualites.html">Accessoires</a></li>
+             <li><a href="portfolio.html">Conseiels d´entretien</a></li>
+             <li><a href="blog.html">Le Blog</a></li>
+        </ul>
+	</div>
+  </nav>		
+ </header>  
+  <div class="container produits">
+    <div class="row">
+     <div class="col-md-6">
+        <div  class="card">
+      <a href="images/images/richelieu-pietro-noir1.jpg"><img  class="card-img-top img-fluid"img id="large" src="images/richelieu-pietro-noir1.jpg" alt=""></a>
+      <div class="card-block">
+  
+     
+		 
+     
+      </div>
+    </div>
+	
+	
+	
+	    <div class="fb_produit_miniatures">
+	     <ul>
+	       <li><a href="#"><img class="img-thumbnail" src="images/richelieu-pietro-noir2.jpg" width="" height=""></a><li>
+            <li><a href="#"><img class="img-thumbnail" src="images/richelieu-pietro-noir3.jpg" width="" height=""></a></li>
+           <li><a href="#"><img class="img-thumbnail" src="images/richelieu-an.jpg" width="" height=""> </a></li>  
+		   <li><a href="#"><img class="img-thumbnail" src="images/richelieu1.jpg" width="" height=""> </a></li> 
+         </ul>
+		</div>
+		
+		<hr>
+		
+	      <div id="social">
+		    <h2>Partager:</h2>
+           	<a href="#" title="facebook"><img src="images/header-facebook.png" alt="Mon facebook"></a>
+            	<a href="#" title="twitter"><img src="images/header-twitter.png" alt="Mon twitter"></a>
+				
+         </div>	
+        
+      </div>
+	  
+	  
+ <div class="col-md-6">
+	<div class="row">
+        <div class="col-md-6">
+			<h2>Titre du produit</h2>	
+			<p>Son nom du categorie</p>
+		</div>
+		<div class="col-md-6">
+		    <h2>Prix:<span> 169,00 €</span></h2>
+		
+		</div>	
+
+     </div>	 
+	 
+
+<div class="col-md-12">
+          
+		  
+    <div class="form-group">
+      <label for="sel1">CHOISIR LA POINTURE:</label>
+        <select class="form-control" id="sel1">
+           <option>40</option>
+            <option>41</option>
+             <option>42</option>
+             <option>43</option>
+			 <option>45</option>
+         </select>
+     </div>
+		  
+	<div class="form-group">
+      <label for="sel1">CHOISIR LA QUANTITE:</label>
+        <select class="form-control" id="sel1">
+           <option>1</option>
+            <option>2</option>
+             <option>3</option>
+             <option>4</option>
+			 <option>5</option>
+         </select>
+		 <br>
+		 <button type="button" class="btn btn-primary btn-block btn_ajou">AJOUTER AU PANIER</button>
+     </div>
+		    
+		  
+		
+   </div>
+
+ <div class="col-md-12">
+	
+	  <div class="titre-acc">Titre 1</div>
+        <div class="contenu-acc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin leo dolor, et pellentesque nisl. Cras elementum lobortis quam et aliquam. Maecenas vel leo a orci aliquam lacinia. Quisque porta porttitor lectus a adipiscing. Morbi vulputate odio in tortor sodales sed porta quam elementum.
+        </div>
+
+        <div class="titre-acc">Titre 2</div>
+            <div class="contenu-acc">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin leo dolor, et pellentesque nisl. Cras elementum lobortis quam et aliquam. Maecenas vel leo a orci aliquam lacinia. Quisque porta porttitor lectus a adipiscing. Morbi vulputate odio in tortor sodales sed porta quam elementum.
+            </div>
+
+          <div class="titre-acc">Titre 3</div>
+            <div class="contenu-acc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin leo dolor, et pellentesque nisl. Cras elementum lobortis quam et aliquam. Maecenas vel leo a orci aliquam lacinia. Quisque porta porttitor lectus a adipiscing. Morbi vulputate odio in tortor sodales sed porta quam elementum.
+           </div>
+
+            <div class="titre-acc">Titre 4</div>
+               <div class="contenu-acc">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin leo dolor, et pellentesque nisl. Cras elementum lobortis quam et aliquam. Maecenas vel leo a orci aliquam lacinia. Quisque porta porttitor lectus a adipiscing. Morbi vulputate odio in tortor sodales sed porta quam elementum.
+              </div>
+
+           <div class="titre-acc">Titre 5</div>
+             <div class="contenu-acc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin leo dolor, et pellentesque nisl. Cras elementum lobortis quam et aliquam. Maecenas vel leo a orci aliquam lacinia. Quisque porta porttitor lectus a adipiscing. Morbi vulputate odio in tortor sodales sed porta quam elementum.
+            </div> 
+	  
+ </div>
+  
+	 
+  </div>
+ </div>
+ 
+ 
+  </div>
+  
+  
+  <div class="container produits">
+           <h2>DE MEME CATEGORIE</h2>
+		   <hr>
+   <div class="row">
+    <div class="col-md-3">
+      <div  class="card">
+      <a href="#"><img  class="card-img-top img-fluid" src="images/img12.jpg" alt=""></a>
+      <div class="card-block">
+           
+          <h2 class="card-title h4"> Ceci est mon titre</h2>
+		     <a href="#">Le nom de Categorie</a>
+           <p class=" card-text">kr 10 000.</p>
+         <a href="#" class="btn btn-primary">Decouvrire</a>
+      </div>
+    </div>
+    </div>
+
+    <div class="col-md-3">
+      <div  class="card">
+      <a href="#"><img  class="card-img-top img-fluid" src="images/richelieu1.jpg" alt=""></a>
+      <div class="card-block">
+           
+          <h2 class="card-title h4"> Ceci est mon titre</h2>
+		     <a href="#">Le nom de Categorie</a>
+           <p class=" card-text">kr 10 000.</p>
+         <a href="#" class="btn btn-primary"> Decouvrire</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+      <div  class="card">
+      <a href="#"><img  class="card-img-top img-fluid" src="images/richelieu-pietro-noir1.jpg" alt=""></a>
+      <div class="card-block">
+           
+          <h2 class="card-title h4"> Ceci est mon titre</h2>
+		     <a href="#">Le nom de Categorie</a>
+           <p class=" card-text">kr 10 000.</p>
+         <a href="#" class="btn btn-primary"> Lire la suite</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+      <div  class="card">
+      <a href="#"><img  class="card-img-top img-fluid" src="images/richelieu-pietro-noir1.jpg" alt=""></a>
+      <div class="card-block">
+           
+          <h2 class="card-title h4"> Ceci est mon titre</h2>
+		     <a href="#">Le nom de Categorie</a>
+           <p class=" card-text">kr 10 000.</p>
+         <a href="#" class="btn btn-primary"> Lire la suite</a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+   </div>
+   
+   <div class="container produits">
+           <h2>LES PRODUITS RÉCEMMENTS CONSULTÉS</h2>
+		   <hr>
+   <div class="row">
+    <div class="col-md-3">
+      <div  class="card">
+      <a href="#"><img  class="card-img-top img-fluid" src="images/img12.jpg" alt=""></a>
+      <div class="card-block">
+           
+          <h2 class="card-title h4"> Ceci est mon titre</h2>
+		     <a href="#">Le nom de Categorie</a>
+           <p class=" card-text">kr 10 000.</p>
+         <a href="#" class="btn btn-primary">Decouvrire</a>
+      </div>
+    </div>
+    </div>
+
+    <div class="col-md-3">
+      <div  class="card">
+      <a href="#"><img  class="card-img-top img-fluid" src="images/richelieu1.jpg" alt=""></a>
+      <div class="card-block">
+           
+          <h2 class="card-title h4"> Ceci est mon titre</h2>
+		     <a href="#">Le nom de Categorie</a>
+           <p class=" card-text">kr 10 000.</p>
+         <a href="#" class="btn btn-primary"> Decouvrire</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+      <div  class="card">
+      <a href="#"><img  class="card-img-top img-fluid" src="images/richelieu-pietro-noir1.jpg" alt=""></a>
+      <div class="card-block">
+           
+          <h2 class="card-title h4"> Ceci est mon titre</h2>
+		     <a href="#">Le nom de Categorie</a>
+           <p class=" card-text">kr 10 000.</p>
+         <a href="#" class="btn btn-primary"> Lire la suite</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+      <div  class="card">
+      <a href="#"><img  class="card-img-top img-fluid" src="images/richelieu-pietro-noir1.jpg" alt=""></a>
+      <div class="card-block">
+           
+          <h2 class="card-title h4"> Ceci est mon titre</h2>
+		     <a href="#">Le nom de Categorie</a>
+           <p class=" card-text">kr 10 000.</p>
+         <a href="#" class="btn btn-primary"> Lire la suite</a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    </div>
+  
+   <footer>
+   <div class="container">
+     <div class="row re-re">
+	    <div class="col-md-6">
+		
+		       <p> LES RESEAUX SAUCIAUX</p>
+
+             
+         </div>
+         <div class="col-md-6 recherche ">
+		
+		       <p> INSCRIVEZ-VOUS À LA NEWSLETTER :</p>
+
+              <form>
+                     <input type="text" name="search" placeholder="Search..">
+            </form>
+
+		
+		</div> 		
+	   </div>
+	   
+        <div class="row">
+	    <div class="col-md-3 foot-jk">
+		     <h2> A PROPOS DE FINSBURY</h2>
+			  
+            <a href="#">Qui sommes-nous ?</a>
+            <a href="#">Matières et savoir-faire</a>
+            <a href="#">Les engagements de la maison</a>
+            <a href="#">Le blog</a>
+            <a href="#">Nos magasins</a>
+		 </div>
+
+         <div class="col-md-3 foot-jk">
+		   <h2> BOUTIQUE EN LIGNE</h2>
+          <a href="#">Chaussures homme</a>
+          <a href="#">Accessoires homme</a>
+          <a href="#">Accessoires d'entretien</a>
+          <a href="#">Paiement sécurisé</a>
+		      
+		</div>
+
+        <div class="col-md-3 foot-jk">
+		      <h2>A PROPOS DE FINSBURY</h2>
+			  
+            <a href="#">Qui sommes-nous ?</a>
+            <a href="#">Matières et savoir-faire</a>
+            <a href="#">Les engagements de la maison</a>
+            <a href="#">Le blog</a>
+            <a href="#">Nos magasins</a>
+		 </div>
+
+         <div class="col-md-3 foot-jk">
+		    <h2>BOUTIQUE EN LIGNE</h2>
+          <a href="#">Chaussures homme</a>
+          <a href="#">Accessoires homme</a>
+          <a href="#">Accessoires d'entretien</a>
+          <a href="#">Paiement sécurisé</a>
+		      
+		</div> 		
+	   </div> 		
+	   </div>
+  </footer>
+
+  
+  </body>
+</html>
